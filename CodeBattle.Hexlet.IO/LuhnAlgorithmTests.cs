@@ -35,10 +35,10 @@ namespace CodeBattle.Hexlet.IO
         [InlineData("0", true)]
         public void LuhnAlgorithmTest(string cardNumber, bool isValidExpected)
         {
-            var isValid = cardNumber.Reverse().ToArray()
+            var isValid = cardNumber.Reverse().Select(c => Parse(c.ToString()))
                 .Select((t, i) => i % 2 == 0
-                    ? Parse(t.ToString())
-                    : Parse(t.ToString()) * 2 / 10 + Parse(t.ToString()) * 2 % 10)
+                    ? t
+                    : t * 2 / 10 + t * 2 % 10)
                 .Sum() % 10 == 0;
             Assert.Equal(isValidExpected, isValid);
         }
