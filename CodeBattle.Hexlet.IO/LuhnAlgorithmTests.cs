@@ -35,7 +35,9 @@ namespace CodeBattle.Hexlet.IO
         [InlineData("0", true)]
         public void LuhnAlgorithmTest(string cardNumber, bool isValidExpected)
         {
-            var isValid = cardNumber.Reverse().Select(c => Parse(c.ToString()))
+            var isValid = cardNumber
+                .Reverse()
+                .Select(c => Parse(c.ToString()))
                 .Select((t, i) => i % 2 == 0
                     ? t
                     : t * 2 / 10 + t * 2 % 10)
