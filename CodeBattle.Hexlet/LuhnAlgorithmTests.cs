@@ -3,7 +3,7 @@ using Xunit;
 using Xunit.Abstractions;
 using static System.Int32;
 
-namespace CodeBattle.Hexlet.IO
+namespace CodeBattle.Hexlet
 {
     public class LuhnAlgorithmTests
     {
