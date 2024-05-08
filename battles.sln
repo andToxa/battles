@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBattle.Hexlet", "CodeBattle.Hexlet\CodeBattle.Hexlet.csproj", "{8E6CD723-C2B8-4BB4-B1BD-767045C2A9A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars", "CodeWars\CodeWars.csproj", "{3D1A3E04-E16B-4EDD-BA17-AACB59E02CE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{BB907B97-2E44-4FFF-882B-42627467F7ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{8E6CD723-C2B8-4BB4-B1BD-767045C2A9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E6CD723-C2B8-4BB4-B1BD-767045C2A9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E6CD723-C2B8-4BB4-B1BD-767045C2A9A3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D1A3E04-E16B-4EDD-BA17-AACB59E02CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D1A3E04-E16B-4EDD-BA17-AACB59E02CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D1A3E04-E16B-4EDD-BA17-AACB59E02CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D1A3E04-E16B-4EDD-BA17-AACB59E02CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB907B97-2E44-4FFF-882B-42627467F7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB907B97-2E44-4FFF-882B-42627467F7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB907B97-2E44-4FFF-882B-42627467F7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB907B97-2E44-4FFF-882B-42627467F7ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
