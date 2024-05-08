@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 
 namespace LeetCode._0506.RelativeRanks;
 
@@ -12,7 +11,14 @@ public class Solution
         for (var i = 1; i <= score.Length; i++)
         {
             var maxValue = score.Max();
-            var maxIndex = Array.IndexOf(score, maxValue);
+            var maxIndex = -1;
+            for (var j = 0; j < score.Length; j++)
+            {
+                if (score[j] == maxValue)
+                {
+                    maxIndex = j;
+                }
+            }
             score[maxIndex] = -1;
             answer[maxIndex] = i switch
             {
